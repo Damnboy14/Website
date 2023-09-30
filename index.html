@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9120.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: blue;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: lightblue;
+            color: white;
+            font-family: TT Masters, Anton;
+            text-align: Left;
+            margin-left: 20;
+        }
+
+        header {
+            /* Remove background-color for the title */
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            /* Apply Anton font and add a black outline to the text */
+            font-family: Anton, sans-serif;
+            color: white;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        }
+
+        nav {
+            /* Remove background-color for the navigation menu */
+            display: flex;
+            justify-content: right;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px; /* Adjust the spacing between menu items */
+            font-size: 18px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; /* This adds spacing between items */
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        .menu-item {
+            cursor: pointer;
+        }
+
+        .menu-item img {
+            width: 400px;
+            height: auto;
+        }
+
+        /* Apply TT Masters font and add a black outline to the text */
+        .welcome-message {
+            font-size: 40px;
+            font-family: TT Masters, sans-serif;
+            margin-top: 40px;
+            color: white;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Apply Anton font to "WEBSITE NAME" -->
+        <h1><span style="font-family: Anton, sans-serif;">WEBSITE NAME</span></h1>
+    </header>
+    <nav>
+        <a href="file:///C:/Users/Admin/Desktop/nathan/Programming/3rd%20sem%20mini%20project/Main.html">Home</a>
+        <a href="file:///C:/Users/Admin/Desktop/nathan/Programming/3rd%20sem%20mini%20project/contact.html">Contact Us</a> 
+        <a href="file:///C:/Users/Admin/Desktop/nathan/Programming/3rd%20sem%20mini%20project/About.html">About Us</a>
+    </nav>
+    
+    <p class="welcome-message">Welcome to Our Recommendation page</p>
+
+    <main>
+        <a class="menu-item" href="library.html">
+            <img src="C:\Users\Admin\Downloads\DIGITAL LIBRARY.png" alt="Digital Library">
+        </a>
+        <a class="menu-item" href="art.html">
+            <img src="C:\Users\Admin\Downloads\ART GALLERY.png" alt="Art Gallery">
+        </a>
+        <a class="menu-item" href="museum.html">
+            <img src="C:\Users\Admin\Downloads\MUSEUM RECOMMENDATION SYSTEM.png" alt="Museum Recommendation">
+        </a>
+    </main>
+</body>
+</html>
